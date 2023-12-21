@@ -1,0 +1,20 @@
+# Ignore bytecode files and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local development settings
+.env
+
+# Ignore SQLite database file
+db.sqlite3
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*~
